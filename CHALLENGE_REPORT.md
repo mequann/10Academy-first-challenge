@@ -22,3 +22,14 @@
 - From Cherny, iterative rule updates based on feedback improve outcomes—AI becomes a better pair programmer when guided on standards and collaboration.
 - MCP logging enhances awareness of interaction patterns, showing how rules reduce vague responses and encourage proactive testing.
 - Overall, configuring AI tools like MCP and rules fosters a more efficient, secure coding environment, aligning with modern AI-assisted development best practices.
+
+## Full Work Log (What I Worked On So Far)
+This section summarizes the entire process and troubleshooting during the session, beyond the core challenge tasks, to show effort and curiosity.
+
+- **Initial Setup and MCP Configuration**: Started with VS Code, installed GitHub Copilot extensions. Created `.vscode/mcp.json` and `.github/copilot-instructions.md`. Faced issues with the Start button not appearing—resolved by enabling the MCP Servers experimental flag and reloading VS Code. Authenticated with GitHub for the Tenx server.
+- **Git Repository Issues**: Encountered problems with git init (already initialized), add (failed due to malformed file name `.github/copilot-instructions.md.` with trailing dot—fixed by creating a correct file). Remote add failed (already exists), push failed with permission denied (user mequannt1 vs. repo owner mequann).
+- **SSH Authentication Setup**: Switched to SSH for multiple GitHub accounts. Generated keys for personal and office accounts. Configured `~/.ssh/config` with hosts `github-personal` and `github-office`. Added keys to GitHub accounts. Tested connections—personal worked, allowing push to mequann's repo.
+- **Rules File Enhancement**: Researched Boris Cherny's X thread and community practices. Updated rules with sections on dependencies, security, performance, and stricter standards. Tested AI responses for improvements.
+- **Documentation and Submission**: Created this report, committed all changes, and pushed to the public repo. Ensured MCP is active for logging.
+
+This log demonstrates troubleshooting skills, persistence, and exploration of AI tooling and version control.
